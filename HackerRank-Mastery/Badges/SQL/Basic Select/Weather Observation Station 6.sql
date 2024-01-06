@@ -1,0 +1,11 @@
+/*
+Enter your query here.
+*/
+
+SELECT DISTINCT CITY FROM Station
+WHERE CITY LIKE 'A%' OR CITY LIKE 'a%'
+OR CITY LIKE 'E%' OR CITY LIKE 'e%'
+OR CITY LIKE 'I%' OR CITY LIKE 'i%'
+OR CITY LIKE 'O%' OR CITY LIKE 'o%'
+OR CITY LIKE 'U%' OR CITY LIKE 'u%'
+
